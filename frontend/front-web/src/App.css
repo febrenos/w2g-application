@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+html{
+  /* background-color: #383150; */
+  background-color:#9ca8f1 ;
+  color: #ffffffd7;
+  font-family: system-ui, monospace,'Gill Sans';
+  padding: 1.5vh;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  color:#fff;
+  padding: 10px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+p{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.content{
+  /* transition: 1s; */
+  /* padding-left: 200px; */
+}

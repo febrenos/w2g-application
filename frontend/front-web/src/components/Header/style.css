@@ -1,0 +1,95 @@
+ul{
+    position: fixed;
+    height: 370px;
+    transition: .5s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 14px;
+    /* background-color: #403a60; */
+    background-color: #202857;
+    /* padding: 11px 20px; */
+    border-radius: 15px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+/* li{
+    padding: 4px;
+} */
+li:hover{/*li:nth-child(n+2):hover*/
+    background-color: #312c4d70;
+    border-radius: 5px;
+    /* #312c4db6 */
+}
+.menuOpen{
+    width: 180px;
+    /* width: 200px; */
+    /* padding-left: 15px; */
+}
+.menuClose{
+    width: 43px;
+    /* padding-left: 0; */
+}
+#iMenuOpen{
+    transition: .5s;
+    transform: rotate(180deg);
+}
+#iMenuClose{
+    transition: .5s;
+    transform: rotate(0deg);
+}
+
+.addText{
+    display: block;
+}
+.rmText{
+    display: none;
+}
+
+.icon{
+    display: flex;
+    min-width: 33px;
+    justify-content: center;
+}
+li{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding: 4px 0;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+li svg{
+    /* padding: 0 11px; */
+    /* margin: 0 15px 0 0; */
+}
+li a{
+    margin-left: 15px;
+    text-decoration: none;
+}
+/* div{
+    height: 100%;
+} */
+.backgroundI{
+    /* background: linear-gradient(90deg, rgb(12 137 159 / 25%), rgb(12 137 159 / 15%), transparent);
+
+    background: linear-gradient(90deg, rgb(12 137 159 / 25%), rgb(12 137 159 / 15%), transparent);
+    box-shadow: inset 7px 0 9px -8px rgb(12 137 159); */
+
+    display: flex;
+    align-items: center;
+    border-left: 2px solid #0c899f;
+    height: 18px;
+}
+
+.active svg{
+    border-left: 2px solid #0c899f;
+}
+/* .active{
+    color: white;
+    text-decoration: none;
+} */
